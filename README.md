@@ -20,4 +20,7 @@ A monte carlo process is a process that uses probability to determine the outcom
 
 ## Results
 
+![magnetic_moment_with_temperature](https://cloud.githubusercontent.com/assets/23300144/24078277/a08c49a0-0c26-11e7-8fe6-ca1420f3c4dd.png)
+
+
 ![susceptibility_with_temperature](https://cloud.githubusercontent.com/assets/23300144/24078261/4eca3ba4-0c26-11e7-9d7b-a2b54fc3b899.png)
