@@ -85,7 +85,7 @@ def simulate(num_of_lattices = 20, lattice_size = 16, min_temperature= 1.5, max_
 
         average_moment[i] = average_moment[i]/num_of_samples
         average_moment_sq[i] = average_moment_sq[i]/num_of_samples
-        susceptibility[i] = num_of_samples*(average_moment_sq[i] - pow(average_moment[i], 2))/temperatures[i]
+        susceptibility[i] = num_of_samples/lattice_size*(average_moment_sq[i] - pow(average_moment[i], 2))/temperatures[i]
     
     #plot_magnetism(temperatures, average_moment, lattice_size)
     plot_susceptibility(temperatures, susceptibility, lattice_size)
@@ -106,3 +106,4 @@ def plot_susceptibility(temperatures, susceptibility, lattice_size):
     plt.yscale('log')
     plt.show()
 
+simulate()
