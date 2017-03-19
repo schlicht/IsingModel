@@ -19,6 +19,12 @@ Spins typically align in the direction of a magnetic field. Susceptibility is an
 A monte carlo process is a process that uses probability to determine the outcome. In the simulation, spins are selected randomly for the direction of spin to change. If the switch is energetically favorable, the spin is flipped. Otherwise a probability dependent on the energy cost of flipping and temperature is computed to determine whether or not the spin should be flipped. As the temperature increases the spins are more likely to change, decreasing the time required to converge on a magnetized state.
 
 ## Results
-Magnetization | Susceptibility
+Magnetization | Expected Results
 :----:|:----:
-![magnetic_moment_with_temperature](https://cloud.githubusercontent.com/assets/23300144/24078277/a08c49a0-0c26-11e7-8fe6-ca1420f3c4dd.png) |![susceptibility_with_temperature](https://cloud.githubusercontent.com/assets/23300144/24078261/4eca3ba4-0c26-11e7-9d7b-a2b54fc3b899.png)
+![magnetic_moment_with_temperature](https://cloud.githubusercontent.com/assets/23300144/24078277/a08c49a0-0c26-11e7-8fe6-ca1420f3c4dd.png) | ![](https://cloud.githubusercontent.com/assets/23300144/24081531/f448dd78-0c72-11e7-8331-1e4742f06a7e.png)
+
+Flippidy Flap
+
+Susceptibility| Expected Results
+:----:|:----:
+![susceptibility_with_temperature](https://cloud.githubusercontent.com/assets/23300144/24078261/4eca3ba4-0c26-11e7-9d7b-a2b54fc3b899.png) | ![Susceptibility](https://cloud.githubusercontent.com/assets/23300144/24081555/545d88a8-0c73-11e7-9181-0f118f9ca0b7.png)
