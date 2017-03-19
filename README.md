@@ -21,7 +21,7 @@ A [monte carlo](https://en.wikipedia.org/wiki/Ising_model#Monte_Carlo_methods_fo
 ## Results
 Magnetization | Expected Results
 :----:|:----:
-![magnetic_moment_with_temperature](https://cloud.githubusercontent.com/assets/23300144/24078277/a08c49a0-0c26-11e7-8fe6-ca1420f3c4dd.png) | ![](https://cloud.githubusercontent.com/assets/23300144/24081531/f448dd78-0c72-11e7-8331-1e4742f06a7e.png)
+![magnetization_squared](https://cloud.githubusercontent.com/assets/23300144/24081757/a74404e0-0c76-11e7-98f6-ed3e64cc4c01.png) | ![](https://cloud.githubusercontent.com/assets/23300144/24081531/f448dd78-0c72-11e7-8331-1e4742f06a7e.png)
 
 Flippidy Flap
 
