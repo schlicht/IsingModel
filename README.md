@@ -28,3 +28,5 @@ Flippidy Flap
 Susceptibility| Expected Results
 :----:|:----:
 ![susceptibility_with_temperature](https://cloud.githubusercontent.com/assets/23300144/24078261/4eca3ba4-0c26-11e7-9d7b-a2b54fc3b899.png) | ![Susceptibility](https://cloud.githubusercontent.com/assets/23300144/24081555/545d88a8-0c73-11e7-9181-0f118f9ca0b7.png)
+
+The chaotic behavior at lower temperatures is due to the simulation being unable to settle onto the expected state. The low temperatures causes change to be slow and the simulation wasn't run for enough time steps for the simulation to converge.
