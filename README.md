@@ -3,6 +3,7 @@ An old project from Fall 2015 which I refactored for legibility. The [Ising Mode
 
 ## Ising Model
 In physical materials, the spins of electrons are free to point in any direction. In the Ising Model, spins are constrained to point in only 2 directions, up or down. 
+
 ![pb366743fig01](https://cloud.githubusercontent.com/assets/23300144/24108497/0041ddae-0d4b-11e7-9069-f4b413fb5050.jpg)
 
 ## Magnetization
