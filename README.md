@@ -14,7 +14,7 @@ Spins typically align in the direction of a magnetic field. [Susceptibility](htt
 
 ## Monte Carlo Simulation
 
-A [monte carlo](https://en.wikipedia.org/wiki/Ising_model#Monte_Carlo_methods_for_numerical_simulation) process uses probability to determine the outcome. In the simulation, spins are selected randomly for the direction of spin to change. If the switch is energetically favorable, the spin is flipped. Otherwise a probability dependent on the energy cost of flipping and temperature is computed to determine whether or not the spin should be flipped. As the temperature increases the spins are more likely to change, decreasing the time required to converge on a magnetized state.
+A [monte carlo](https://en.wikipedia.org/wiki/Ising_model#Monte_Carlo_methods_for_numerical_simulation) process uses probability to determine the outcome. In the simulation, spins are selected randomly for the direction of spin to change. The energy is calculated by the alignment of the spin with the four spins surrounding the lattice point (edges rap around so that all points have four neighboring spins). If the switch is energetically favorable, the spin is flipped. Otherwise a probability dependent on the energy cost of flipping and temperature is computed to determine whether or not the spin should be flipped. As the temperature increases the spins are more likely to change, decreasing the time required to converge on a magnetized state.
 
 ## Results
 Magnetization | Expected Results (A. W. Sandvik, AIP Conf. Proc. 1297, 135 (2010).)
@@ -22,9 +22,14 @@ Magnetization | Expected Results (A. W. Sandvik, AIP Conf. Proc. 1297, 135 (2010
 ![magnetization_squared](https://cloud.githubusercontent.com/assets/23300144/24081757/a74404e0-0c76-11e7-98f6-ed3e64cc4c01.png) | ![](https://cloud.githubusercontent.com/assets/23300144/24081531/f448dd78-0c72-11e7-8331-1e4742f06a7e.png)
 
 
-
 Susceptibility| Expected Results (A. W. Sandvik, AIP Conf. Proc. 1297, 135 (2010).)
 :----:|:----:
 ![susceptibility_with_temperature](https://cloud.githubusercontent.com/assets/23300144/24078261/4eca3ba4-0c26-11e7-9d7b-a2b54fc3b899.png) | ![Susceptibility](https://cloud.githubusercontent.com/assets/23300144/24081555/545d88a8-0c73-11e7-9181-0f118f9ca0b7.png)
 
 The chaotic behavior at lower temperatures is due to the simulation being unable to settle onto the expected state. The low temperatures causes change to be slow and the simulation wasn't run for enough time steps for the simulation to converge.
+
+
+Feel free to run the code yourself. You can easily adjust the lattice size, temperature, number of time steps between samples, and number of samples.
+
+## Possible Improvements
+There are plenty of variations of the Ising Model that I could easily try out. The Ising Model is studied in 1, 2, 3, and 3+ dimensions (1D doesn't have a phase change to magnetism but 2+ dimensions do.) Also properties such as autocorrelation (how long it takes for magnetism to change direction) may also be investigated. Another cool possibility is to study vortices that occur and propagate through 3+ dimensions. 
