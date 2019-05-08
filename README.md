@@ -33,3 +33,5 @@ Feel free to run the code yourself. You can easily adjust the lattice size, temp
 
 ## Possible Improvements
 There are plenty of variations of the Ising Model that I could easily try out. The Ising Model is studied in 1, 2, 3, and 3+ dimensions (1D doesn't have a phase change to magnetism but 2+ dimensions do.) Also properties such as autocorrelation (how long it takes for magnetism to change direction) may also be investigated. Another cool possibility is to study vortices that occur and propagate through 3+ dimensions. 
+
+## End
